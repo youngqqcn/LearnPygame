@@ -7,12 +7,11 @@ Description:none
 '''
 
 def foo(n):
-	if 1  == n:
+	if (1  == n) | (0 == n):
 		return 1
 	else:
 		return  foo(n-1) + foo(n-2)
 	pass
-
 
 def main():
 
